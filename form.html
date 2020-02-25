@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <meta charset="utf-8">
+    <title>Navbars</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" type="text/css" href="bootstrap.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+
+  </head>
+  <body>
+    <div class="container" style="width: 30em">
+      <form class="form-signin">
+        <div class="text-center">
+          <img class="mb-4 mt-5" src="images.png" alt="" width="72" height="72">
+        </div>
+        <h1 class="h4 mb-4 text-center">S'inscrire</h1>
+        <label for="inputFirstName" class="sr-only">Prénom</label>
+        <input type="text" id="inputFirstName" class="form-control mt-4" placeholder="Prénom" required autofocus>
+        <label for="inputLastName" class="sr-only">Nom</label>
+        <input type="text" id="inputLastName" class="form-control mt-3" placeholder="Nom" required autofocus>
+        <label for="inputTextarea" class="sr-only">Description</label>
+        <textarea class="form-control mt-3" id="inputTextarea" rows="3" placeholder="Description"></textarea>
+        <label for="inputCity" class="sr-only">Ville</label>
+        <select class="form-control mt-3" id="inputCity">
+          <option value="" selected disabled>Ville</option>
+          <option>Lyon</option>
+          <option>Montpellier</option>
+          <option>Toulouse</option>
+        </select>
+        <label for="inputEmail" class="sr-only">Adresse email</label>
+        <input type="email" id="inputEmail" class="form-control mt-3" placeholder="Adresse email" required autofocus>
+        <small id="emailHelp" class="form-text text-muted font-italic ml-2">Nous ne partagerons jamais votre email avec qui que ce soit.</small>
+        <label for="inputPassword" class="sr-only">Mot de passe</label>
+        <input type="password" id="inputPassword" class="form-control mt-3" placeholder="Mot de passe" required>
+        <label for="inputPasswordConfirmation" class="sr-only">Confirmation de mot de passe</label>
+        <input type="password" id="inputPasswordConfirmation" class="form-control mt-3" placeholder="Confirmation du mot de passe" required>
+        <div class="checkbox mt-3 mb-3">
+          <label>
+            <input type="checkbox" value="remember-me"> Se souvenir de moi
+          </label>
+        </div>
+        <button class="btn btn-lg btn-primary btn-block mb-5" type="submit">S'inscrire</button>
+      </form>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+  </body>
+</html>
